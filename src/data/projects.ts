@@ -31,7 +31,7 @@ export const projects: Project[] = [
     story: "This project connects SNN training, quantized weights, hardware-aware optimization, Verilog RTL, and KV260 validation tooling.",
     evidence: "Reported results are project evaluation outputs. Energy is an estimated proxy, not measured board power.",
     metrics: ["95.70% validation accuracy", "79.68% energy-proxy reduction", "576-cycle recorded flow"],
-    links: [{ href: "https://github.com/Ronin1067/EE-SNA", label: "Read the project" }],
+    links: [{ href: "https://github.com/yagneshkumarkoduru/EE-SNA", label: "Read the project" }],
   },
   {
     id: "cce-qos",
@@ -42,7 +42,7 @@ export const projects: Project[] = [
     story: "This project treats scheduling as the main problem: placement, memory, bandwidth, DVFS states, and feasibility constraints become measurable optimization targets.",
     evidence: "Results are model-driven benchmarks against a greedy baseline. No physical NPU or quantum hardware claim.",
     metrics: ["58.06% feasibility with Quantum + APR", "25.62% cost reduction vs greedy", "Classical and QAOA-oriented paths"],
-    links: [{ href: "https://github.com/Ronin1067/CCE-QOS", label: "Read the project" }],
+    links: [{ href: "https://github.com/yagneshkumarkoduru/CCE-QOS", label: "Read the project" }],
   },
   {
     id: "pid",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     story: "This project studies response behavior, stability margins, root locus, and disturbance rejection through simulation.",
     evidence: "All figures are simulation outputs. No physical motor measurements are claimed.",
     metrics: ["88.4% reported rise-time reduction", "1.03% reported overshoot", "20% load-disturbance analysis"],
-    links: [{ href: "https://github.com/Ronin1067/DC-Motor-PID-Control-System-Design-and-Analysis", label: "Read the project" }],
+    links: [{ href: "https://github.com/yagneshkumarkoduru/DC-Motor-PID-Control-System-Design-and-Analysis", label: "Read the project" }],
   },
   {
     id: "noemek",
