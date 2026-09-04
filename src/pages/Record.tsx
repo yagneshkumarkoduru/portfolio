@@ -1,10 +1,10 @@
 import { projects, skills } from "../data/projects";
 
 const timeline = [
-  ["01", "Early making", "Early builds led me into robotics, sensors, Arduino, IoT, and competitions."],
-  ["02", "Learning to ship", "Product work taught me to explain, ship, and improve systems with users in mind."],
-  ["03", "Research depth", "I moved into control, SNNs, hardware-aware training, NPU scheduling, and optimization."],
-  ["04", "Academic trajectory", "Next, I want a stronger research environment for embedded systems, verification, and physical AI."],
+  ["01", "Early making", "Early builds led me into robotics, sensors, Arduino, IoT, and competitions. Age 16 entry to IIIT Sri City."],
+  ["02", "Learning to ship", "Product work at Fluidity and Vyntt taught me to explain, ship, and improve systems with users in mind."],
+  ["03", "Research depth", "Built ES-FA on Kria KV260, CCE-QOS QUBO scheduling, NPU optimization suites, and control systems during leave."],
+  ["04", "Academic trajectory", "Seeking a funded academic reset to rebuild foundations in embedded systems, verification, and physical AI. CGPA 3.76 working record, 5 active backlogs, on approved leave."],
 ];
 
 const metrics = [
