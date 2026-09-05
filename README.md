@@ -1,4 +1,4 @@
-# Yagnesh Kumar Koduru — Personal Research Portfolio
+# Yagnesh Kumar Koduru - Personal Research Portfolio
 
 **Independent Researcher | Embedded Systems, Neuromorphic Accelerators, Energy-Efficient Control & Physical Intelligence**
 
@@ -12,7 +12,7 @@ This portfolio collects self-directed research projects that demonstrate depth i
 - Computer vision for real-world deployment (efficient models, explainability)
 - Robotics and embedded systems integration
 
-All projects are framed as personal research with rigorous methodology, quantitative results, and clear paths to hardware validation — directly aligned with building safe physical-AI platforms.
+All projects are framed as personal research with rigorous methodology, quantitative results, and clear paths to hardware validation - directly aligned with building safe physical-AI platforms.
 
 ## Featured Research Projects
 
@@ -34,7 +34,7 @@ My long-term interest lies in **heterogeneous physical-intelligence platforms** 
 - Deterministic safety & command-authority layers
 - Evidence and verification tooling
 
-This direction supports applications in assistive robotics, industrial automation, and safe human-machine systems where inference alone is insufficient — timing, energy, fault tolerance, and traceable decision-making are first-class requirements.
+This direction supports applications in assistive robotics, industrial automation, and safe human-machine systems where inference alone is insufficient - timing, energy, fault tolerance, and traceable decision-making are first-class requirements.
 
 ## Why These Projects Demonstrate Research Maturity
 
@@ -42,14 +42,14 @@ This direction supports applications in assistive robotics, industrial automatio
 - **Optimization under constraints**: QUBO + APR for realistic NPU energy modeling (CCE-QOS)
 - **Control theory depth**: Multi-method analysis with stability, robustness, and comparative evaluation (DC-Motor)
 - **Real-world deployment focus**: Quantization, explainability, and edge metrics (CV projects)
-- **Evidence-driven**: Every project produces tables, plots, logs, and hardware reports — not just accuracy numbers
+- **Evidence-driven**: Every project produces tables, plots, logs, and hardware reports - not just accuracy numbers
 
 ## Contact & Further Work
 
 - Portfolio site: [yagnesh-portfolio-eight.vercel.app](https://yagnesh-portfolio-eight.vercel.app)
 - GitHub: [yagneshkumarkoduru](https://github.com/yagneshkumarkoduru)
 - LinkedIn & Email: available on request
-- Current focus: Atlas ACEK Safety Assurance Kit — a digital pre-integration product for profile-bound command safety in assistive and industrial control (Esthien Labs)
+- Current focus: Atlas ACEK Safety Assurance Kit - a digital pre-integration product for profile-bound command safety in assistive and industrial control (Esthien Labs)
 
 I am seeking research-intensive environments with strong hardware infrastructure, mentors in embedded AI / verification / control, and opportunities to continue building toward safe physical intelligence systems.
 
