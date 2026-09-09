@@ -22,7 +22,7 @@ Full LIF/STDP derivations and an architectural comparison guide ship in `docs/`.
 |---|---|
 | 95.70% test accuracy with zero degradation under hardware-aware regularization | Simulation, hardware-aware loss evaluation |
 | 79.68% dynamic energy reduction from spike-frequency regularization | Simulation energy proxy |
-| 6.3x energy-delay product reduction vs synchronous INT8 systolic arrays | Post-synthesis comparison |
+| 6.3x energy-delay product reduction vs synchronous INT8 systolic arrays | Modeled EDP frontier (analysis benchmark) |
 | 576-cycle active-window latency | RTL simulation |
 
 Physical board power and latency measurements remain future work. Nothing here is claimed as a measured silicon or board result.

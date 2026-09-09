@@ -46,10 +46,10 @@ This direction supports applications in assistive robotics, industrial automatio
 
 ## Contact & Further Work
 
-- Portfolio site: [yagnesh-portfolio-eight.vercel.app](https://yagnesh-portfolio-eight.vercel.app)
+- Portfolio site: [yagneshkumarkoduru.vercel.app](https://yagneshkumarkoduru.vercel.app)
 - GitHub: [yagneshkumarkoduru](https://github.com/yagneshkumarkoduru)
 - LinkedIn & Email: available on request
-- Current focus: Atlas ACEK Safety Assurance Kit - a digital pre-integration product for profile-bound command safety in assistive and industrial control (Esthien Labs)
+- Current focus: the Atlas chipset execution program at Esthien Labs, building on the ACEK digital reference assets for profile-bound command safety in assistive and industrial control
 
 I am seeking research-intensive environments with strong hardware infrastructure, mentors in embedded AI / verification / control, and opportunities to continue building toward safe physical intelligence systems.
 
