@@ -18,11 +18,11 @@ All projects are framed as personal research with rigorous methodology, quantita
 
 | Project | Domain / Focus | Key Theoretical & Empirical Contributions | Link |
 |:---|:---|:---|:---|
-| **ES-FA** | Neuromorphic FPGA Acceleration | Event-driven SNN direct training + hardware proxy energy/latency estimators + synthesizable SystemVerilog RTL + KV260 FPGA verification | [EE-SNA](https://github.com/yagneshkumarkoduru/EE-SNA) |
-| **CCE-QOS** | Energy-Optimal NPU Scheduling | Constraint-Coupled Energy (CCE) formulation + Quadratic Unconstrained Binary Optimization (QUBO) + Adaptive Penalty Refinement (APR) + QAOA interface | [CCE-QOS](https://github.com/yagneshkumarkoduru/CCE-QOS) |
-| **DC Motor Regulation** | Robust Precision Control | First-principles physics modeling, multi-method PID, modern state-space LQR state-feedback, and 100-sample Monte Carlo parameter robustness | [DC-Motor-PID](https://github.com/yagneshkumarkoduru/DC-Motor-PID-Control-System-Design-and-Analysis) |
-| **Robotic Hydro-Suspension** | Active Mechatronic Control | 2-DOF quarter-car fluid dynamics, active LQR & Skyhook damping vibration control (35% RMS shock reduction), distributed RPi/Arduino CAN telemetry | [Robotic-Hydro-Suspension](https://github.com/yagneshkumarkoduru/Robotic-Hydro-Suspension-Project) |
-| **Food Recognition for Edge** | Edge Deep Vision & XAI | ResNet-50 transfer learning (92.83% test accuracy on 10 food classes), Grad-CAM visual attention explainability, and 3.2x INT8 quantization acceleration | [Food-Classification](https://github.com/yagneshkumarkoduru/Food-Classification-Using-ResNet-50) |
+| **ES-FA** | Neuromorphic FPGA Acceleration | Event-driven SNN direct training + hardware proxy energy/latency estimators + synthesizable SystemVerilog RTL + on-chip STDP + KV260 FPGA target | [ES-FA-SNN-Accelerator](https://github.com/yagneshkumarkoduru/ES-FA-SNN-Accelerator) |
+| **CCE-QOS** | Energy-Optimal NPU Scheduling | Constraint-Coupled Energy (CCE) formulation + Quadratic Unconstrained Binary Optimization (QUBO) + Adaptive Penalty Refinement (APR) + CP-SAT/QAOA solvers + KV-cache paging | [CCE-QOS](https://github.com/yagneshkumarkoduru/CCE-QOS) |
+| **Precision-Drive Dynamics** | Robust Precision Control | Classical PID/LQR baselines advancing to Stribeck friction modeling, LESO observer, neural-adaptive super-twisting SMC, and CBF safety filtering | [Precision-Drive-Dynamics](https://github.com/yagneshkumarkoduru/Precision-Drive-Dynamics) |
+| **Robotic Hydro-Suspension** | Active Mechatronic Control | 2-DOF quarter-car MR fluid dynamics, preview NMPC with HOCBF safety filter (56.9% vibration attenuation in MR-damper benchmark), distributed RPi/STM32 CAN telemetry | [Robotic-Hydro-Suspension](https://github.com/yagneshkumarkoduru/Robotic-Hydro-Suspension) |
+| **Food Recognition for Edge** | Edge Deep Vision & Risk Control | ResNet-50 with split-conformal risk control (95% provable coverage), Grad-CAM explainability, and pruning-aware INT8 quantization (87.5% memory cut, 4.71x edge speedup) | [Edge-Food-Vision-ResNet50](https://github.com/yagneshkumarkoduru/Edge-Food-Vision-ResNet50) |
 
 ## Research Direction & Vision
 
