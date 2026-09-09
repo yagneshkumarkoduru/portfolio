@@ -39,7 +39,7 @@ export const projects: Project[] = [
       "95.70% validation accuracy preserved",
       "79.68% estimated hardware-energy reduction",
       "576-cycle active-window latency",
-      "6.3x energy-delay product reduction vs INT8 systolic baseline"
+      "6.3x modeled energy-delay product reduction vs INT8 systolic baseline"
     ],
     links: [{ href: "https://github.com/yagneshkumarkoduru/ES-FA-SNN-Accelerator", label: "View on GitHub" }],
   },
@@ -50,7 +50,7 @@ export const projects: Project[] = [
     title: "CCE-QOS - Constraint-Coupled Energy QUBO Scheduling",
     summary: "NPU compiler scheduling formulated as a QUBO with Adaptive Penalty Refinement.",
     story: "This work models SRAM/DRAM bank constraints and energy as a binary quadratic program, maps operator DAGs to Ising Hamiltonians, and solves them with OR-Tools CP-SAT plus QAOA statevector simulation (p ≤ 4) under a classical APR loop. A separate NPU-Optimization-Suite repo consolidates the memory-hierarchy, polyhedral-fusion, and solver studies into one three-tier compiler pipeline; CCE-QOS remains the scheduling-formulation and KV-cache-paging record.",
-    evidence: "All results are benchmark-driven against a greedy baseline. No physical NPU or quantum hardware execution is claimed. The 25.62% figure is the scheduling-level energy reduction in this repo.",
+    evidence: "Results are benchmark models and recorded solver metrics against a greedy baseline. No physical NPU or quantum hardware execution is claimed. The 25.62% figure is the scheduling-level energy reduction in this repo.",
     metrics: [
       "58.06% feasible schedules with Quantum + APR",
       "25.62% scheduling energy reduction vs greedy",

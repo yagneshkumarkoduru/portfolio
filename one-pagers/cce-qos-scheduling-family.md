@@ -24,7 +24,7 @@ Two complementary records, not two independent wins:
 | 1.82x throughput, 45.10% memory latency hidden | Suite Tier 2 | Benchmark simulation |
 | 1.91x LLM verification speedup, 37.81% interconnect energy cut | Suite Tier 3 | Benchmark simulation |
 
-Note: both repos report a 25.62% energy figure - the scheduling-level result and the pipeline total respectively, per their own READMEs. Treat as one lineage, not two independent victories. No physical NPU or quantum hardware execution is claimed.
+Note: both repos report a 25.62% energy figure - the scheduling-level result and the pipeline total respectively, per their own READMEs. Treat as one lineage, not two independent victories. The uJ energy and KV-cache tables are normalized benchmark models in each repo's scripts; feasibility and cost figures are recorded solver outputs. No physical NPU or quantum hardware execution is claimed.
 
 ## Why it matters
 
