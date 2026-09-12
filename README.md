@@ -49,7 +49,7 @@ This direction supports applications in assistive robotics, industrial automatio
 - Portfolio site: [yagneshkumarkoduru.vercel.app](https://yagneshkumarkoduru.vercel.app)
 - GitHub: [yagneshkumarkoduru](https://github.com/yagneshkumarkoduru)
 - LinkedIn & Email: available on request
-- Current focus: the Atlas chipset execution program at Esthien Labs, building on the ACEK digital reference assets for profile-bound command safety in assistive and industrial control
+- Current focus: independent research on event-driven neuromorphic systems, deterministic control architectures, and cross-layer optimization. Currently employed as RTL Design Engineer at Esthien.
 
 I am seeking research-intensive environments with strong hardware infrastructure, mentors in embedded AI / verification / control, and opportunities to continue building toward safe physical intelligence systems.
 
