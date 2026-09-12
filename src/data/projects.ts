@@ -12,24 +12,8 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "atlas",
-    index: "01",
-    type: "Physical intelligence / Current work",
-    title: "Atlas - Safety-Supervised Control Architecture",
-    summary: "A simulation-first, verification-led control layer for sensor-driven physical systems.",
-    story: "Atlas is designed to keep physical commands bounded even when sensor signals degrade, disappear, or become unsafe. The current implementation compares a model-only baseline against an Atlas-supervised path using replay, fault injection, and deterministic state machines. The immediate next gate is measured hardware-in-the-loop evidence on MCU and FPGA targets.",
-    evidence: "All published metrics are from versioned synthetic replay and workstation simulation. Physical board timing, power, and fault containment results are in progress.",
-    metrics: [
-      "12.7× lower nonzero commands under flatline fault",
-      "92.1% reduction in unsafe command rate",
-      "8.0× feature-stage parallelization",
-      "0.946 ms p95 end-to-end replay latency"
-    ],
-    links: [{ href: "https://www.esthien.com/", label: "Explore Esthien" }],
-  },
-  {
     id: "es-fa",
-    index: "02",
+    index: "01",
     type: "Independent research",
     title: "ES-FA - Event-Driven SNN Accelerator on FPGA",
     summary: "Hardware-aware spiking neural network acceleration targeting the Xilinx Kria KV260.",
@@ -45,7 +29,7 @@ export const projects: Project[] = [
   },
   {
     id: "cce-qos",
-    index: "03",
+    index: "02",
     type: "Independent research",
     title: "CCE-QOS - Constraint-Coupled Energy QUBO Scheduling",
     summary: "NPU compiler scheduling formulated as a QUBO with Adaptive Penalty Refinement.",
@@ -60,7 +44,7 @@ export const projects: Project[] = [
   },
   {
     id: "pid",
-    index: "04",
+    index: "03",
     type: "Control systems",
     title: "Precision-Drive Dynamics - Nonlinear Motor Control",
     summary: "From classical PID baselines to neural-adaptive sliding-mode control with safety filtering.",
@@ -75,7 +59,7 @@ export const projects: Project[] = [
   },
   {
     id: "noemek",
-    index: "05",
+    index: "04",
     type: "Software systems",
     title: "Noemek - Governed AI Workforce OS",
     summary: "Policy-first, auditable work orchestration for multi-channel AI employees.",
@@ -89,7 +73,7 @@ export const projects: Project[] = [
   },
   {
     id: "product",
-    index: "06",
+    index: "05",
     type: "Product contributions",
     title: "Fluidity & Vyntt - Product & Launch Work",
     summary: "Frontend, product, and early go-to-market contributions.",
