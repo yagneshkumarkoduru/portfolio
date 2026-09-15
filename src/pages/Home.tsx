@@ -30,7 +30,7 @@ export function Home() {
     <section className="hero">
       <div className="hero-copy-wrap">
         <p className="hero-kicker">Machines, control, proof</p>
-        <h1 className="hero-title"><span className="hero-title-line">Yagnesh</span><span className="hero-title-line title-outline">Kumar Koduru.</span></h1>
+        <h1 className="hero-title"><span className="hero-title-line">Koduru</span><span className="hero-title-line title-outline">Yagnesh Kumar.</span></h1>
         <p className="hero-copy">I build robotics, embedded systems, and physical AI with a focus on control, reliability, and proof.</p>
         <div className="hero-actions"><a className="button button-primary" href="#work">Follow the work <Arrow /></a><Link className="button button-quiet" to="/record">The record <Arrow /></Link></div>
       </div>

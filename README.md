@@ -1,4 +1,4 @@
-# Yagnesh Kumar Koduru - Personal Research Portfolio
+# Koduru Yagnesh Kumar - Personal Research Portfolio
 
 **Independent Researcher | Embedded Systems, Neuromorphic Accelerators, Energy-Efficient Control & Physical Intelligence**
 
@@ -49,7 +49,7 @@ This direction supports applications in assistive robotics, industrial automatio
 - Portfolio site: [yagneshkumarkoduru.vercel.app](https://yagneshkumarkoduru.vercel.app)
 - GitHub: [yagneshkumarkoduru](https://github.com/yagneshkumarkoduru)
 - LinkedIn & Email: available on request
-- Current focus: independent research on event-driven neuromorphic systems, deterministic control architectures, and cross-layer optimization. Currently employed as RTL Design Engineer at Esthien.
+- Current focus: independent research on event-driven neuromorphic systems, deterministic control architectures, and cross-layer optimization.
 
 I am seeking research-intensive environments with strong hardware infrastructure, mentors in embedded AI / verification / control, and opportunities to continue building toward safe physical intelligence systems.
 
