@@ -12,6 +12,6 @@ export function Layout() {
       </nav>
     </header>
     <main><Outlet /></main>
-    <footer><span>© {new Date().getFullYear()} Yagnesh Kumar Koduru</span><span>Built independently.</span></footer>
+    <footer><span>© {new Date().getFullYear()} Koduru Yagnesh Kumar</span><span>Built independently.</span></footer>
   </div>;
 }
