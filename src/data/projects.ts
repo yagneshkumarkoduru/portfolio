@@ -16,14 +16,14 @@ export const projects: Project[] = [
     index: "01",
     type: "Independent research",
     title: "ES-FA - Event-Driven SNN Accelerator on FPGA",
-    summary: "Hardware-aware spiking neural network acceleration on reconfigurable FPGA fabric.",
-    story: "ES-FA combines quantized LIF-based training, event-driven temporal multiplexing, and synthesizable Verilog RTL across three tiers: parameterizable multi-core RTL with on-chip STDP, a C99 cycle-accurate simulator, and a .NET host driver with spike-driven FlashAttention. The design was validated through post-synthesis timing simulation and hardware-aware accuracy evaluation.",
-    evidence: "Reported accuracy and energy-proxy figures are from simulation and post-synthesis analysis. Physical board power and latency measurements remain future work.",
+    summary: "Event-driven spiking neural network accelerator: recurrent PLIF training, synthesizable RTL, bit-exact C engine, and a .NET 9 driver, verified end to end with an open-source CAD flow.",
+    story: "ES-FA combines quantized LIF training with recurrent parametric neurons (RPLIF), event-driven temporal multiplexing, and synthesizable Verilog RTL across three tiers: parameterizable multi-core RTL with on-chip STDP, a cycle-accurate C99 simulator, and a .NET host driver with spike-driven FlashAttention. The RTL core is verified without vendor tools: Icarus Verilog self-checking simulation, Yosys mapping to 890 cells on ECP5, and a nextpnr-routed 132.29 MHz maximum-frequency estimate.",
+    evidence: "SHD benchmark results are 3-seed simulations (78% RPLIF accuracy; the published SRNN/PLIF gap and its causes are documented openly in the evidence ledger). Energy figures are C-engine model estimates, not board measurements; board power remains future work.",
     metrics: [
-      "95.70% validation accuracy preserved",
-      "79.68% estimated hardware-energy reduction",
-      "576-cycle active-window latency",
-      "6.3x modeled energy-delay product reduction vs INT8 systolic baseline"
+      "77.87% SHD accuracy, RPLIF 3 seeds (+3.61pp over the PLIF ablation)",
+      "89.4% spike-operation reduction (model)",
+      "890 cells on ECP5, 132.29 MHz routed timing estimate",
+      "8.97 Mpps streaming with 55.7 ns dispatch latency (measured, host-dependent)"
     ],
     links: [{ href: "https://github.com/yagneshkumarkoduru/ES-FA-SNN-Accelerator", label: "View on GitHub" }],
   },
