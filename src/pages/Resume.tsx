@@ -2,7 +2,7 @@ import { skills } from "../data/projects";
 
 const timeline = [
   ["Now", "Independent systems work", "Physical AI, verification, accelerators, NPU optimization suites, and applied research. CGPA 3.76 working record, on leave."],
-  ["2026", "Atlas and ACEK", "Control, safety, and verification for sensor-driven systems. QUBO NPU optimization and ES-FA on Kria KV260."],
+  ["2026", "Atlas and ACEK", "Control, safety, and verification for sensor-driven systems. QUBO NPU optimization and ES-FA on vendor-neutral FPGA hardware."],
   ["2025", "Backend and research", "Backend logic, security components, digital signal processing and VLSI coursework completed."],
   ["2024", "Product and launch work", "Product, interface, sales, marketing, brand, and campaign work at Fluidity and Vyntt."],
   ["2023", "IIIT Sri City ECE", "B.Tech ECE entry at age 16, core courses: Digital Logic Design, Signals and Systems, Embedded Systems."],

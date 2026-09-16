@@ -16,7 +16,7 @@ export const projects: Project[] = [
     index: "01",
     type: "Independent research",
     title: "ES-FA - Event-Driven SNN Accelerator on FPGA",
-    summary: "Hardware-aware spiking neural network acceleration targeting the Xilinx Kria KV260.",
+    summary: "Hardware-aware spiking neural network acceleration on reconfigurable FPGA fabric.",
     story: "ES-FA combines quantized LIF-based training, event-driven temporal multiplexing, and synthesizable Verilog RTL across three tiers: parameterizable multi-core RTL with on-chip STDP, a C99 cycle-accurate simulator, and a .NET host driver with spike-driven FlashAttention. The design was validated through post-synthesis timing simulation and hardware-aware accuracy evaluation.",
     evidence: "Reported accuracy and energy-proxy figures are from simulation and post-synthesis analysis. Physical board power and latency measurements remain future work.",
     metrics: [

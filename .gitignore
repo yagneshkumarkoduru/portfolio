@@ -4,3 +4,4 @@ docs/
 *.tsbuildinfo
 .env
 .env.*
+github-profile/
