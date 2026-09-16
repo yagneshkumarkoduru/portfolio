@@ -18,7 +18,7 @@ All projects are framed as personal research with rigorous methodology, quantita
 
 | Project | Domain / Focus | Key Theoretical & Empirical Contributions | Link |
 |:---|:---|:---|:---|
-| **ES-FA** | Neuromorphic FPGA Acceleration | Event-driven SNN direct training + hardware proxy energy/latency estimators + synthesizable SystemVerilog RTL + on-chip STDP + KV260 FPGA target | [ES-FA-SNN-Accelerator](https://github.com/yagneshkumarkoduru/ES-FA-SNN-Accelerator) |
+| **ES-FA** | Neuromorphic FPGA Acceleration | Event-driven SNN direct training + hardware proxy energy/latency estimators + synthesizable SystemVerilog RTL + on-chip STDP + vendor-neutral FPGA target | [ES-FA-SNN-Accelerator](https://github.com/yagneshkumarkoduru/ES-FA-SNN-Accelerator) |
 | **CCE-QOS** | Energy-Optimal NPU Scheduling | Constraint-Coupled Energy (CCE) formulation + Quadratic Unconstrained Binary Optimization (QUBO) + Adaptive Penalty Refinement (APR) + CP-SAT/QAOA solvers + KV-cache paging | [CCE-QOS](https://github.com/yagneshkumarkoduru/CCE-QOS) |
 | **Precision-Drive Dynamics** | Robust Precision Control | Classical PID/LQR baselines advancing to Stribeck friction modeling, LESO observer, neural-adaptive super-twisting SMC, and CBF safety filtering | [Precision-Drive-Dynamics](https://github.com/yagneshkumarkoduru/Precision-Drive-Dynamics) |
 | **Robotic Hydro-Suspension** | Active Mechatronic Control | 2-DOF quarter-car MR fluid dynamics, preview NMPC with HOCBF safety filter (56.9% vibration attenuation in MR-damper benchmark), distributed RPi/STM32 CAN telemetry | [Robotic-Hydro-Suspension](https://github.com/yagneshkumarkoduru/Robotic-Hydro-Suspension) |
