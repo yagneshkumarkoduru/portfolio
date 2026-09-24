@@ -1,7 +1,9 @@
 import { Link, NavLink, Outlet } from "react-router-dom";
+import { ParticleCanvas } from "./ParticleCanvas";
 
 export function Layout() {
     return <div className="site-shell">
+      <ParticleCanvas />
       <div className="noise" aria-hidden="true" />
       <header className="nav">
       <Link className="wordmark" to="/">YK<span>.</span></Link>
@@ -12,6 +14,6 @@ export function Layout() {
       </nav>
     </header>
     <main><Outlet /></main>
-    <footer><span>© {new Date().getFullYear()} Koduru Yagnesh Kumar</span><span>Built independently.</span></footer>
+    <footer><span>© {new Date().getFullYear()} Yagnesh Kumar Koduru</span><span>Built independently.</span></footer>
   </div>;
 }
