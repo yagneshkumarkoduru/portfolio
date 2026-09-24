@@ -5,8 +5,8 @@
   --bg-raised: #0b1020;
   --bg-band: #101729;
   --ink: #f6f3ec;
-  --muted: #bbc3d2;
-  --soft: #8995aa;
+  --muted: #c4ccda;
+  --soft: #a8b4c8;
   --line: rgba(246, 243, 236, 0.15);
   --line-strong: rgba(246, 243, 236, 0.26);
   --cobalt: #6ea8ff;
@@ -196,7 +196,7 @@ footer {
 .hero-copy {
   max-width: 570px;
   margin: 0;
-  color: #d0d1d4;
+  color: #d8dae0;
   font-size: 20px;
   line-height: 1.68;
   overflow-wrap: break-word;
@@ -396,7 +396,7 @@ footer {
 
 .story-copy p {
   margin: 0 0 23px;
-  color: #c8c9ce;
+  color: #d2d4d9;
   font-size: 21px;
   font-weight: 500;
   line-height: 1.64;
@@ -843,7 +843,7 @@ footer {
 }
 
 .record-project-id small {
-  color: #898c92;
+  color: #a0a4ab;
   font-family: var(--font-ui);
   font-size: 10px;
   letter-spacing: 0;
@@ -995,7 +995,7 @@ footer {
   justify-content: space-between;
   gap: 16px;
   padding: 24px 0 35px;
-  color: #7f8187;
+  color: #9a9da6;
   border-top: 1px solid rgba(245, 242, 236, 0.12);
   font-family: var(--font-ui);
   font-size: 10px;
