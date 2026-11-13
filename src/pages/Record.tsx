@@ -11,12 +11,18 @@ const timeline = [
   ["03", "Research depth", "ES-FA neuromorphic accelerator. CertGuard conformal-risk actuation control. CCE-QOS QUBO scheduling on Amazon Braket QPU. Limen safety architecture."],
 ];
 
+// Reconciliation note (2026-11-13): proof markers aligned to committed
+// evidence artifacts per EST-INVENTORY-001 section 7. Sources:
+//   ES-FA: EVIDENCE.md + results/committee_v17_campaign/final_top4x.log
+//   CertGuard: EVIDENCE.md E04 + out/benchmark_report.json (deployment mode;
+//     the 5.4% oracle ablation consumes true labels and is not deployable)
+//   Limen: synthetic benchmark; real-UCI LOSO 23-28% (results/real_semg_summary.json)
 const proofMetrics = [
-  ["97.03%", "Best single-seed SHD accuracy", "ES-FA — highest recorded on the SHD benchmark across all runs."],
-  ["91%", "Unsafe command reduction", "CertGuard — certificate governor at severe drift (3.0). 61.3% → 5.4%."],
+  ["93.95%", "Best single-model SHD accuracy", "ES-FA. Seed 271, EMA+TTA8 (EVIDENCE.md, run 20261002-084838)."],
+  ["41%", "Wrong-intent authority reduction", "CertGuard. Deployment mode at severe drift (3.0): 61.3% to 36.0% (out/benchmark_report.json)."],
   ["+16.1pp", "Feasibility improvement", "CCE-QOS APR arm over Lookahead baseline. 6-instance statistical sweep."],
-  ["98.8%", "Fault-injected accuracy", "Limen — under electrode dropout and motion artifact. 0.0% false activation."],
-  ["92.9%", "SOP elimination", "ES-FA — sparse operations vs dense baseline. 890 ECP5 cells, 132.29 MHz."],
+  ["98.8%", "Fault-injected accuracy (synthetic)", "Limen. Synthetic benchmark; real-UCI LOSO 23-28% (real_semg_summary.json)."],
+  ["95.19%", "SHD committee accuracy", "ES-FA. Selected four-model committee with temporal-warp TTA; unselected: 94.48% (final_top4x.log)."],
 ];
 
 function Arrow() { return <span aria-hidden="true">&#8599;</span>; }
