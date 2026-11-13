@@ -1,15 +1,15 @@
 const ITEMS = [
-  "94.61% SHD single model",
-  "91% unsafe command reduction",
+  "93.95% SHD single model",
+  "41% unsafe command reduction",
   "+16.1pp feasibility",
-  "95.19% SHD committee",
+  "95.27% SHD committee",
   "1-2% neuron firing rate",
   "3,506 ECP5 cells",
   "132.29 MHz routed",
-  "26.47% cost reduction",
+  "26.47% cost reduction vs greedy",
   "98.8% fault-injected accuracy",
-  "4.88× fewer attention ops",
-  "QPU validated — IonQ Forte + QuEra Aquila",
+  "97.71% attention ops bypassed",
+  "QPU validated: IonQ Forte + QuEra Aquila",
   "0.0% false activation",
 ];
 
